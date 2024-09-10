@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gilory';
+    color: #ffff;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+#cursor
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ffff;
+    position: absolute;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference;
+
+}
+
+h2{
+    font-size: 9vw;
+    font-weight: 400;
+
+}
